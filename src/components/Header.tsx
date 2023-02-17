@@ -24,10 +24,10 @@ const Header = () => {
                             <Image 
                                 className="d-block mx-lg-auto img-fluid"
                                 loading="lazy"
-                                src={'/Scenes01.svg'}
+                                src={'/business-analysis.svg'}
                                 alt='Image of two people working around softwares and apps'
-                                width={800}
-                                height={600}
+                                width={600}
+                                height={400}
                             />
                         </div>
                         <div className="col-lg-5">

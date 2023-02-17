@@ -1,11 +1,11 @@
 import Header from '@/components/Header';
+import Services from '@/components/Services';
 
 export default function Home() {
   return (
-    <>
-      <main>
-        <Header />
-      </main>
-    </>
+    <section className='home'>
+      <Header />
+      <Services />
+    </section>
   )
 }
