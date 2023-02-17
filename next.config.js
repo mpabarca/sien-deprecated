@@ -3,7 +3,9 @@ const path = require('path');
 
 const nextConfig = {
   reactStrictMode: true,
-  includePaths: [path.join(__dirname, 'styles')],
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
+  },
 };
 
 module.exports = nextConfig

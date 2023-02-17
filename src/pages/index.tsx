@@ -1,8 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -14,7 +11,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        Hola Sien
+        <h1 className='text-center'>Sien services</h1>
+        <button className='btn btn-primary m-2'>Button</button>
+        <button className='btn btn-secondary m-2'>Button</button>
+        <button className='btn btn-danger m-2'>Button</button>
       </main>
     </>
   )

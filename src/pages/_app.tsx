@@ -1,6 +1,7 @@
-import '../styles/scss/global.scss';
+import '../styles/scss/customBootstrap.scss';
+import '../styles/scss/index.scss';
 import type { AppProps } from 'next/app';
 
 export default function App({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />
-};
+}
