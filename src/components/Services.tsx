@@ -8,7 +8,7 @@ const Services = () => {
                     <div className='feature d-flex flex-row align-items-center justify-content-between mx-auto'>
                         <Image 
                             src={'/parking-animation-light.svg'}
-                            alt='principal logo Sien services'
+                            alt='parking of cars and a locator above a car'
                             width={400}
                             height={200}
                             className='col-4'
@@ -18,7 +18,7 @@ const Services = () => {
                     <div className='feature d-flex flex-row align-items-center justify-content-between mx-auto'>
                         <Image 
                             src={'/computer-chart-animation.svg'}
-                            alt='principal logo Sien services'
+                            alt='woman analyse charts and data'
                             width={400}
                             height={200}
                             className='col-4'
@@ -28,7 +28,7 @@ const Services = () => {
                     <div className='feature d-flex flex-row align-items-center justify-content-between mx-auto'>
                         <Image 
                             src={'/mobile-chart-animation.svg'}
-                            alt='principal logo Sien services'
+                            alt='man shouting or social medias'
                             width={400}
                             height={200}
                             className='col-4'

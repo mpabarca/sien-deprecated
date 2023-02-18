@@ -3,7 +3,7 @@ import { faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons'
 
 const Quote = () => {
     return (
-        <section className='first-phrase d-flex justify-content-center align-items-center mx-auto col-8'>
+        <section className='first-phrase container d-flex justify-content-center align-items-center mx-auto col-8'>
             <FontAwesomeIcon
                 icon={faQuoteLeft}
                 style={{ fontSize: 80 }}
