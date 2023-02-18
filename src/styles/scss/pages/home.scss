@@ -2,6 +2,7 @@
     .header {
         p.aliado {
             font-size: 1rem;
+            color: $color-gray-dark;
         }
         .title {
             font-size: 4rem;
@@ -30,13 +31,13 @@
         .feature {
             max-width: 50rem;
             min-width: 20rem;
-            margin-bottom: 2rem;
             padding: 1.5rem;
             border-radius: 1rem;
             p {
                 font-weight: 400;
                 text-align: center;
                 padding-top: 2rem;
+                color: $color-gray-dark;
             }
         }
     }
@@ -59,8 +60,33 @@
         }
     }
     .description {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        span {
+            margin: 0;
+            &.first {
+                font-size: 2.5rem;
+                font-weight: 700;
+            }
+        }
         .client-card-group {
             gap: 1rem;
+            .card {
+                border-radius: 2rem;
+                .card-body {
+                    color: $color-gray-dark;
+                    h5 {
+                        font-weight: 600;
+                        border-bottom: 1px solid $color-gray-light;
+                    }
+                    ul {
+                        padding: 0;
+                        li {
+                            list-style-type: none;
+                        }
+                    }
+                }
+            }
         }
     }
 }

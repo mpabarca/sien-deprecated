@@ -42,7 +42,7 @@ const Header = () => {
                                     Contáctanos
                                 </button>
                                 <button type="button" className="btn btn-outline-secondary btn-lg px-4">
-                                    Servicios
+                                    Cómo funciona
                                 </button>
                             </div>
                         </div>

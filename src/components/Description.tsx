@@ -6,10 +6,10 @@ const Description = () => {
         <section className='description-title quote'>
             <div className="container d-flex flex-row align-items-center justify-content-between col-xxl-12 px-1">
                 <div className='d-flex flex-column justify-content-start align-items-start col-6'>
-                    <span className='first'>
+                    <span className='first mb-5'>
                         ¿Por qué Sien Services?
                     </span>
-                    <span className='second mt-5'>
+                    <span className='second'>
                         Más transparente, seguro y rápido
                     </span>
                     <p className='explanation mt-3'>
@@ -29,18 +29,21 @@ const Description = () => {
                 />
             </div>
         </section>
-        <section className='description container px-1 py-5 d-flex'>
-            <div className='client-card-group d-flex flex-row flex-wrap justify-content-between col-8'>
-                <div className="card col-5">
+        <section className='description container px-1 py-5 d-flex flex-column'>
+            <span className='first my-5'>
+                Cómo funciona
+            </span>
+            <div className='client-card-group d-flex flex-row flex-wrap justify-content-between'>
+                <div className="card col-5 p-5">
                     <Image 
                         src={'/man-front-car.svg'}
                         alt='man in front of a car smiling and saying hi'
                         width={400}
                         height={200}
-                        className="col-4 card-img-top"
+                        className="col-4 card-img-top my-4"
                     />
                     <div className="card-body">
-                        <h5 className="card-title">Soy un comercio</h5>
+                        <h5 className="card-title mb-5 pb-4">Soy un comercio</h5>
                         <ul>
                             <li>
                                 <p>
@@ -70,16 +73,16 @@ const Description = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="card col-5">
+                <div className="card col-5 p-5">
                     <Image 
                         src={'/catering-service.svg'}
                         alt='two waitress in a catering event'
                         width={400}
                         height={200}
-                        className="col-4 card-img-top"
+                        className="col-4 card-img-top my-4"
                     />
                     <div className="card-body">
-                        <h5 className="card-title">Soy un evento</h5>
+                        <h5 className="card-title mb-5 pb-2">Soy un evento</h5>
                         <ul>
                             <li>
                                 <p>
