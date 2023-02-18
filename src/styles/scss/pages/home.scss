@@ -2,4 +2,15 @@
     .feature-icon {
         color: $color-primary;
     }
+    .feature {
+        max-width: 50rem;
+        gap: 1rem;
+        p {
+            width: 20rem;
+            font-weight: 300;
+            font-size: 1.25rem;
+            padding-bottom: 1rem;
+            // border-bottom: .3rem solid rgba(92, 164, 230, .5);
+        }
+    }
 }
