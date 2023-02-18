@@ -1,28 +1,61 @@
 .home {
+    .header {
+        p.aliado {
+            font-size: 1rem;
+        }
+        .title {
+            font-size: 4rem;
+        }
+    }
     .feature-icon {
         color: $color-primary;
     }
-    .first-phrase {
+    .quote {
+        background-color: rgba(92, 164, 230, 1);
+        color: $color-white;
         text-align: center;
-        margin-top: 6rem;
-        margin-bottom: 6rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
         gap: 1rem;
         span {
-            font-size: 1.75rem;
+            font-size: 1.3rem;
+            margin: 0 .5rem;
+            font-weight: 400;
         }
     }
     .services {
+        .feature-group {
+            gap: 1rem;
+        }
         .feature {
             max-width: 50rem;
+            min-width: 20rem;
             margin-bottom: 2rem;
-            padding: .5rem;
-            background-color: rgba(198, 198, 198, .1);
+            padding: 1.5rem;
             border-radius: 1rem;
             p {
-                width: 20rem;
-                font-weight: 300;
-                font-size: 1.25rem;
+                font-weight: 400;
+                text-align: center;
+                padding-top: 2rem;
             }
+        }
+    }
+    .description-title {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        span {
+            margin: 0;
+            &.first {
+                font-size: 2.5rem;
+                font-weight: 700;
+            }
+            &.second {
+                font-size: 1.3rem;
+                font-weight: 500;
+            }
+        }
+        p.explanation {
+            text-align: start;
         }
     }
     .description {

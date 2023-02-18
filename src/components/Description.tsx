@@ -2,26 +2,35 @@ import Image from 'next/image'
 
 const Description = () => {
     return (
-        <section className='description container px-4 py-5'>
-            <h1>¿Por qué confiar en Sien Services para tu Local Comercial o Evento?</h1>
-            <Image 
-                src={'/parking-control.svg'}
-                alt='man controlling access of a car'
-                width={400}
-                height={200}
-                className='col-4'
-            />
-            <div>
-                <h3>MÁS TRANSPARENTE, SEGURO Y RÁPIDO.</h3>
-                <p>
-                    Nuestros operarios y sistemas serán el primer punto de contacto de tu negocio o evento. Guiamos a tus clientes o invitados,
-                    {' '}
-                    estacionamos sus vehículos, te entregaremos información sobre la llegada y salida de ellos para que puedas tomar decisiones e
-                    {' '}
-                    impulsaremos tu negocio con publicidad y promociones dirigidas.
-                </p>
+        <>
+        <section className='description-title quote'>
+            <div className="container d-flex flex-row align-items-center justify-content-between col-xxl-12 px-1">
+                <div className='d-flex flex-column justify-content-start align-items-start col-6'>
+                    <span className='first'>
+                        ¿Por qué Sien Services?
+                    </span>
+                    <span className='second mt-5'>
+                        Más transparente, seguro y rápido
+                    </span>
+                    <p className='explanation mt-3'>
+                        Nuestros operarios y sistemas serán el primer punto de contacto de tu negocio o evento. Guiamos a tus clientes o invitados,
+                        {' '}
+                        estacionamos sus vehículos, te entregaremos información sobre la llegada y salida de ellos para que puedas tomar decisiones e
+                        {' '}
+                        impulsaremos tu negocio con publicidad y promociones dirigidas.
+                    </p>
+                </div>
+                <Image 
+                    src={'/parking-control.svg'}
+                    alt='man controlling access of a car'
+                    width={900}
+                    height={400}
+                    className='col-5'
+                />
             </div>
-            <div className='client-card-group d-flex flex-row flex-wrap justify-content-between'>
+        </section>
+        <section className='description container px-1 py-5 d-flex'>
+            <div className='client-card-group d-flex flex-row flex-wrap justify-content-between col-8'>
                 <div className="card col-5">
                     <Image 
                         src={'/man-front-car.svg'}
@@ -100,9 +109,9 @@ const Description = () => {
                         </ul>
                     </div>
                 </div>
-
             </div>
         </section>
+        </>
     );
 };
 

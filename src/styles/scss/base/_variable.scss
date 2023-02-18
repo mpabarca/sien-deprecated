@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&family=Didact+Gothic&family=Inter:wght@400;700;800&family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&family=Didact+Gothic&family=Inter:wght@400;700;800&family=Montserrat:wght@400;700&family=Outfit:wght@400;700&display=swap');
 
-$font-family: 'Didact Gothic', sans-serif;
+$font-family: 'Montserrat', sans-serif;
 
 $color-primary: #22499a;
 $color-secondary: #5ca4e6;
 $color-terciary: #40a1d9;
-$color-gray: #c6c6c6;
+$color-gray-light: #c6c6c6;
+$color-gray-regular: #9B9B9B;
+$color-gray-dark: #6D6B6B;
+$color-white: #FFFFFF
