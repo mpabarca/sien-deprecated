@@ -29,7 +29,7 @@ const Description = () => {
                 />
             </div>
         </section>
-        <section className='description container px-1 py-5 d-flex flex-column'>
+        <section className='description container px-1 py-5 d-flex flex-column' id='how-it-works'>
             <span className='first my-5'>
                 Cómo funciona
             </span>

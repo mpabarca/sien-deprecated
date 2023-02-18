@@ -38,12 +38,12 @@ const Header = () => {
                                 El aliado estratégico que tu negocio o evento necesita para ofrecer una experiencia única e irrepetible
                             </p>
                             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                                <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">
+                                <a href="https://walink.co/af7c2b" type="button" className="btn btn-primary btn-lg px-4 me-md-2" target='_blank' rel="noreferrer">
                                     Contáctanos
-                                </button>
-                                <button type="button" className="btn btn-outline-secondary btn-lg px-4">
+                                </a>
+                                <a href="#how-it-works" type="button" className="btn btn-outline-secondary btn-lg px-4">
                                     Cómo funciona
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
